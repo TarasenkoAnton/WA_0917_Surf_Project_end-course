@@ -1,10 +1,30 @@
+.price {
+  color: black;
+  font-weight: 800;
+}
+.pos_rel {
+  position: relative;
+}
+.counter {
+  background-color: black;
+  color: white;
+  font-weight: 200;
+}
+.rating_starcounter {
+  color: #818181;
+}
+.counter_nav {
+  position: relative;
+}
+.image_option {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .header_bottom {
-  border: 1px solid pink;
   width: 100%;
   height: 60%;
 }
 .header_bottom_content {
-  border: 1px solid blue;
   width: 50%;
   height: 100%;
   margin: auto;
@@ -12,27 +32,159 @@
   position: relative;
 }
 .header_bottom_content_leftblock {
-  border: 1px solid red;
   background-image: url("../../../assets/images/Corner.png");
-  background-size: cover;
-  background-repeat: no-repeat;
   width: 50%;
   height: 100%;
 }
+.header_bottom_content_leftblock_item {
+  margin: 10% auto;
+  width: 80%;
+  height: 80%;
+  background-image: url("../../../assets/images/Board.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 .header_bottom_content_centerblock {
-  border: 1px solid blue;
-  width: 10%;
+  width: 7%;
   height: 50%;
   background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+.header_bottom_content_centerblock_item {
+  border: 1px solid lightgrey;
+  width: 100%;
+  height: 24%;
+}
+.header_bottom_content_centerblock_item:hover {
+  border: 2px solid #00B2FC;
+  cursor: pointer;
+}
+.thumb_item_first {
+  background-image: url("../../../assets/images/Board_surf1.png");
+}
+.thumb_item_second {
+  background-image: url("../../../assets/images/Board_surf2.png");
+}
+.thumb_item_third {
+  background-image: url("../../../assets/images/Board_surf3.png");
+}
+.thumb_item_fourth {
+  background-image: url("../../../assets/images/Board_surf4.png");
 }
 .header_bottom_content_rightblock {
   width: 50%;
   height: 100%;
-  border: 1px solid violet;
 }
 .header_bottom_content_rightblock_wrepper {
-  border: 1px solid blue;
-  width: 90%;
+  width: 80%;
   height: 100%;
-  margin-left: 10%;
+  margin-left: 17%;
+  display: flex;
+  flex-direction: column;
+}
+.header_bottom_content_rightblock_adjusting {
+  width: 10%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.header_bottom_content_rightblock_adjusting_item {
+  width: 100%;
+  height: 7%;
+  font-size: .8rem;
+  padding: 0.9rem 0.5rem;
+}
+.header_bottom_content_rightblock_adjusting_item_counter_nav {
+  position: absolute;
+  width: 150%;
+  height: 100%;
+  top: 0;
+  left: 100%;
+  transform: translate(-50%);
+  background-color: #f2d800;
+}
+.header_bottom_content_rightblock_adjusting_item_counter_nav_item {
+  width: 100%;
+  height: 100%;
+  font-size: 1.2rem;
+  padding: 0.6rem 0.8rem;
+  color: white;
+}
+.header_bottom_content_rightblock_adjusting_item_counter_nav_item:hover {
+  color: #818181;
+  cursor: pointer;
+}
+.header_bottom_content_rightblock_top {
+  margin-top: 10%;
+  width: 100%;
+  height: 19%;
+}
+.header_bottom_content_rightblock_top_thumbsinfo > div {
+  padding: .1rem;
+  font-size: 1.35rem;
+  font-weight: 600;
+}
+.header_bottom_content_rightblock_top_rating {
+  padding: 0.7rem 0rem;
+}
+.header_bottom_content_rightblock_center {
+  width: 100%;
+  height: 60%;
+  color: #818181;
+}
+.header_bottom_content_rightblock_center_tabs {
+  border-bottom: 1px solid lightgrey;
+  width: 100%;
+  height: 7%;
+}
+.header_bottom_content_rightblock_center_tabs_item {
+  width: 30%;
+  font-weight: 300;
+}
+.header_bottom_content_rightblock_center_tabs_item:hover {
+  border-bottom: 3px solid #00B2FC;
+  font-weight: 400;
+  color: black;
+  cursor: pointer;
+}
+.header_bottom_content_rightblock_center_description {
+  width: 100%;
+  height: 65%;
+  line-height: 1.8rem;
+  padding-top: 1.3rem;
+  font-size: .9rem;
+  font-weight: 200;
+}
+.header_bottom_content_rightblock_center_price {
+  width: 100%;
+  height: 10%;
+}
+.header_bottom_content_rightblock_center_price_pricelist {
+  width: 30%;
+  height: 100%;
+  color: black;
+  font-size: 1.2rem;
+  font-weight: 800;
+  padding: 0.4rem 0;
+}
+.header_bottom_content_rightblock_center_price_basket {
+  font-size: .8rem;
+  background-color: #00B2FC;
+  color: white;
+  cursor: pointer;
+  width: 30%;
+  height: 100%;
+  padding: 0.6rem;
+  text-align: center;
+}
+.header_bottom_content_rightblock_bottom {
+  width: 100%;
+  height: 5%;
+}
+.header_bottom_content_rightblock_bottom > a {
+  font-weight: 300;
+  color: #00B2FC;
+  text-decoration-line: underline;
 }

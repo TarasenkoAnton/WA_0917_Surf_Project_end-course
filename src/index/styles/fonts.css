@@ -101,8 +101,8 @@
   font-weight: 100;
 }
 @font-face {
-  font-family: "Montserrat";
-  src: url("../../../assets/fonts/Montserrat-ThinItalic.ttf") format("truetype");
+  font-family: "PlayfairDisplay";
+  src: url("../../../assets/fonts/PlayfairDisplay.ttf") format("truetype");
   font-style: italic;
   font-weight: 100;
 }

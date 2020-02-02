@@ -1,0 +1,82 @@
+.blog_post1 {
+  background-image: url("../../../assets/images/blogPost1.png");
+}
+
+.blog_post2 {
+  background-image: url("../../../assets/images/blogPost2.png");
+}
+
+.blog_post3 {
+  background-image: url("../../../assets/images/blogPost3.png");
+}
+
+.content_ourteam_posts {
+  width: 100%;
+  height: 30%;
+  margin-top: 6%;
+  &_wrepper {
+    height: 100%;
+    &_top {
+      width: 50%;
+      height: 15%;
+      margin: 0 auto;
+      &_header {
+        width: 35%;
+        margin: 2% auto;
+        font-weight: 600;
+        font-size: 1rem;
+        text-align: center;
+      }
+    }
+    &_center {
+      width: 80%;
+      height: 75%;
+      justify-content: space-around;
+      margin: 0 auto;
+      &_items {
+        width: 30%;
+        height: 100%;
+        color: @greyColor;
+        display: flex;
+        &:hover {
+          box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+          cursor: pointer;
+          color: @genColor;
+        }
+        &_imagebox {
+          width: 100%;
+          height: 60%;
+          background-repeat: no-repeat;
+          background-size: cover;
+
+        }
+        &_infobox {
+          width: 100%;
+          height: 40%;
+          padding-top: 1rem;
+          padding-left: 2.5rem;
+          font-size: 1rem;
+          font-weight: 300;
+          line-height: 2rem;
+        }
+      }
+    }
+    &_bottom {
+      width: 50%;
+      height: 10%;
+      margin: 0 auto;
+      &_button {
+        margin: 0 auto;
+        width: 30%;
+        height: 60%;
+        background-color: @genColor;
+        color: white;
+        text-align: center;
+        padding-top: 1.5%;
+        font-weight: 400;
+        font-size: .8rem;
+        cursor: pointer;
+      }
+    }
+  }
+}

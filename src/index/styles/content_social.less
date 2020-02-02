@@ -1,0 +1,284 @@
+.inst_item1 {
+  background-image: url("../../../assets/images/instaPhoto1.png")
+}
+
+.inst_item2 {
+  background-image: url("../../../assets/images/instaPhoto2.png")
+}
+
+.inst_item3 {
+  background-image: url("../../../assets/images/instaPhoto3.png")
+}
+
+.inst_item4 {
+  background-image: url("../../../assets/images/instaPhoto4.png")
+}
+
+.facebookFriends1 {
+  background-image: url("../../../assets/images/facebookFriends1.png")
+}
+
+.facebookFriends2 {
+  background-image: url("../../../assets/images/facebookFriends2.png")
+}
+
+.facebookFriends3 {
+  background-image: url("../../../assets/images/facebookFriends3.png")
+}
+
+.facebookFriends4 {
+  background-image: url("../../../assets/images/facebookFriends4.png")
+}
+
+.facebookFriends5 {
+  background-image: url("../../../assets/images/facebookFriends5.png")
+}
+
+.facebookFriends6 {
+  background-image: url("../../../assets/images/facebookFriends6.png")
+}
+
+.facebookFriends7 {
+  background-image: url("../../../assets/images/facebookFriends7.png")
+}
+
+.facebookFriends8 {
+  background-image: url("../../../assets/images/facebookFriends8.png")
+}
+
+.facebookFriends9 {
+  background-image: url("../../../assets/images/facebookFriends9.png")
+}
+
+.like_counter { //для счетчика лайков facebook
+  font-size: 0.7rem;
+  font-weight: 300;
+}
+
+.vawe_atribut_nav {
+  padding-right: 3%;
+  color: yellow;
+}
+.subscribe_intut {
+  width: 80%;
+  background-color: black;
+  border: none;
+  color: #FFFFFF;
+}
+
+.content_social {
+  width: 100%;
+  height: 55%;
+  &_top {
+    height: 65%;
+    &_content {
+      height: 100%;
+      position: absolute;
+      &_topbox {
+        width: 100%;
+        height: 10%;
+      }
+      &_infobox {
+        width: 100%;
+        height: 75%;
+        &_left {
+          width: 55%;
+          height: 100%;
+          &_logobox {
+            width: 100%;
+            height: 11%;
+            color: @lightGreyColor;
+            font-size: 5.7rem;
+            font-weight: 600;
+          }
+          &_imgbox {
+            width: 100%;
+            height: 83%;
+            flex-wrap: wrap;
+            &_items {
+              width: 50%;
+              height: 50%;
+            }
+          }
+          &_followbox {
+            width: 100%;
+            height: 7%;
+            background-color: #FFFFFF;
+            &_insta {
+              padding-top: 2%;
+              padding-left: 1%;
+              justify-content: space-around;
+              width: 30%;
+              height: 100%;
+              color: @genColor;
+              font-size: 1.5rem;
+              font-weight: 600;
+              cursor: pointer;
+            }
+            &_mailbox {
+              padding-top: 2.3%;
+              padding-left: 1%;
+              width: 15%;
+              height: 100%;
+            }
+          }
+        }
+        &_right {
+          width: 45%;
+          height: 100%;
+
+          &_wrepper {
+            width: 90%;
+            height: 100%;
+            position: absolute;
+            top: 20%;
+            left: 10%;
+
+            &_items {
+              width: 100%;
+              height: 50%;
+              &_face {
+                width: 100%;
+                height: 90%;
+                background-image: url(../../../assets/images/Bg_face.png);
+                align-items: center;
+                &_block1 {
+                  width: 50%;
+                  height: 30%;
+                  color: #FFFFFF;
+                  font-weight: 600;
+                  font-size: 2.5rem;
+                  text-align: center;
+                  padding-top: 5%;
+                }
+                &_block2 {
+                  width: 83%;
+                  height: 63%;
+                  &_top {
+                    width: 100%;
+                    height: 70%;
+                    background-image: linear-gradient(to bottom, black 0%, transparent 45%), url("../../../assets/images/facebookCover.png");
+                    &_items {
+                      width: 100%;
+                      height: 50%;
+                      padding: 2%;
+                      &_item1 {
+                        width: 15%;
+                        height: 95%;
+                        border: 2px solid white;
+                        background-color: @genColor;
+                        color: white;
+                        font-size: .8rem;
+                        padding-top: 3%;
+                        text-align: center;
+                        cursor: pointer;
+                      }
+                      &_item2 {
+                        padding: 1%;
+                        width: 100%;
+                        height: 50%;
+                        color: white;
+                        font-weight: 400;
+                      }
+                      &_share {
+                        width: 100%;
+                        padding-top: 7%;
+                        height: 100%;
+                        justify-content: space-between;
+                        &_item {
+                          height: 100%;
+                          padding: 1%;
+                          background-color: @lightGreyColor;
+                          cursor: pointer;
+                          & > span {
+                            margin: 1%;
+                          }
+                        }
+                      }
+                    }
+                  }
+                  &_bottom {
+                    width: 100%;
+                    height: 30%;
+                    background-color: #f6f7f9;
+                    &_descroption {
+                      width: 50%;
+                      height: 30%;
+                      padding: 1%;
+                      font-size: .8rem;
+                    }
+                    &_items {
+                      width: 100%;
+                      height: 70%;
+                      justify-content: space-around;
+                      cursor: pointer;
+                      &_item {
+                        width: 10%;
+                        height: 100%;
+                        &:hover { // поведение - "отсебятина"
+                          margin-top: 1%; // опуск friends image facebook block
+                          box-shadow: @bxShadow;
+                          border-radius: 50%;
+                          border: 1px solid white;
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+              &_nav {
+                width: 100%;
+                height: 100%;
+                color: #FFFFFF;
+                &_item {
+                  padding-top: 10%;
+                  width: 35%;
+                  height: 100%;
+                  line-height: 1.7rem;
+                  font-weight: 200;
+                  & > div {
+                    cursor: pointer;
+                  }
+                }
+
+                &_subscribe {
+                  padding-top: 10%;
+                  width: 100%;
+                  height: 50%;
+                  color: #FFFFFF;
+                  &_mail {
+                    width: 50%;
+                    border-bottom: 1px solid @greyColor;
+                    &_iplace {
+                      color: @greyColor;
+                      width: 92%;
+                    }
+                    &_golink {
+                      padding-left: 2%;
+                      width: 8%;
+                      height: 10%;
+                      background-color: @genColor;
+                      border-radius: 50%;
+                    }
+                  }
+                }
+              }
+            }
+
+          }
+        }
+      }
+      &_subbox {
+        font-size: .8rem;
+        padding-top: 1%;
+        color: @greyColor;
+        width: 100%;
+        height: 15%;
+      }
+    }
+  }
+  &_bottom {
+    height: 35%;
+    background-color: black;
+  }
+}
