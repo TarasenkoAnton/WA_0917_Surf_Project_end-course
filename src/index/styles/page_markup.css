@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+}
+a,
+ul {
+  text-decoration: none;
+  color: black;
+}
+html {
+  font-family: Montserrat, PlayfairDisplay, sans-serif, Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+.f_column {
+  display: flex;
+  flex-direction: column;
+}
+.pos_absolute {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translate(-50%);
+}
+.pos_rel {
+  position: relative;
+}
+.image_option {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.page {
+  height: 4096px;
+}
+.page_content {
+  width: 100%;
+  height: 100%;
+}
+.section-content {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+}
+.counter_nav {
+  position: relative;
+}

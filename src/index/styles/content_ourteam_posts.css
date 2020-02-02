@@ -1,0 +1,47 @@
+.content_ourteam_posts {
+  width: 100%;
+  height: 40%;
+  background-color: yellow;
+  border: 1px solid blue;
+}
+.content_ourteam_posts_wrepper {
+  width: 50%;
+  height: 100%;
+  border: 1px solid red;
+  margin: 0 auto;
+}
+.content_ourteam_posts_wrepper_top {
+  width: 50%;
+  height: 10%;
+  margin: 0 auto;
+}
+.content_ourteam_posts_wrepper_center {
+  width: 100%;
+  height: 80%;
+  justify-content: space-around;
+}
+.content_ourteam_posts_wrepper_center_items {
+  width: 30%;
+  height: 100%;
+  border: 1px solid blue;
+  display: flex;
+}
+.content_ourteam_posts_wrepper_center_items:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+.content_ourteam_posts_wrepper_center_items_imagebox {
+  width: 100%;
+  height: 60%;
+  border: 1px solid;
+}
+.content_ourteam_posts_wrepper_center_items_infobox {
+  width: 100%;
+  height: 40%;
+  border: 1px solid;
+}
+.content_ourteam_posts_wrepper_bottom {
+  width: 50%;
+  height: 10%;
+  margin: 0 auto;
+}

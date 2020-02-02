@@ -1,0 +1,86 @@
+.content_ourteam {
+  border: 1px solid blue;
+  width: 100%;
+  height: 50%;
+  margin-top: 3%;
+}
+.content_ourteam_wrepper {
+  width: 65%;
+  margin-left: 22%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.content_ourteam_wrepper_logo {
+  text-align: center;
+  width: 100%;
+  height: 30%;
+  color: #f7f7f7;
+  font-size: 15.5rem;
+  font-weight: 600;
+  border: 1px solid blue;
+}
+.content_ourteam_wrepper_tabbar {
+  width: 100%;
+  height: 60%;
+  border: 1px solid greenyellow;
+}
+.content_ourteam_wrepper_tabbar_nav {
+  border: 1px solid red;
+  width: 8%;
+  height: 100%;
+  font-weight: 600;
+  font-size: 5rem;
+}
+.content_ourteam_wrepper_tabbar_tabs {
+  width: 86%;
+  height: 100%;
+}
+.content_ourteam_wrepper_tabbar_tabs_item {
+  width: 25%;
+  height: 90%;
+  background-color: #FFFFFF;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  display: flex;
+  flex-direction: column;
+  border-radius: 2px;
+  color: #818181;
+}
+.content_ourteam_wrepper_tabbar_tabs_item:nth-child(2n) {
+  margin-top: 2rem;
+}
+.content_ourteam_wrepper_tabbar_tabs_item:hover {
+  background-color: #00B2FC;
+  color: white;
+  cursor: pointer;
+}
+.content_ourteam_wrepper_tabbar_tabs_item_block {
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+.content_ourteam_wrepper_tabbar_tabs_item_block_top {
+  margin: 15% 30%;
+  width: 40%;
+  height: 60%;
+  border-radius: 50%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.content_ourteam_wrepper_tabbar_tabs_item_block_username {
+  color: #00B2FC;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+.ourteam_photo1 {
+  background-image: url("../../../assets/images/teamcard1.png");
+}
+.ourteam_photo2 {
+  background-image: url("../../../assets/images/teamcard2.png");
+}
+.ourteam_photo3 {
+  background-image: url("../../../assets/images/teamcard3.png");
+}
+.ourteam_photo4 {
+  background-image: url("../../../assets/images/teamcard4.png");
+}
